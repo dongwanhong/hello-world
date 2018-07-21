@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+ 		<meta name="author" content="Anani">
+		<!-- 引入 font-awesome -->
+		<link type="text/css" rel="stylesheet" href="css-app/font-css/css/font-awesome.min.css"/>
+		<!-- 引入 Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="css-app/bootstrap.min.css"/>
+		<title>demo</title>
+		<style type="text/css">
+			/*全局样式*/
+			* {
+			    margin: 0;
+			    padding: 0;
+			}
+
+			img {
+			    max-width: 100%;
+			}
+		</style>
+    </head>
+	<body onload="init()">
+	<section>
+		<button onclick="sayHello()">say-hello</button>
+	</section>
+    </body>
+    <!-- jQuery -->
+    <script type="text/javascript" src="js-app/jquery-3.2.0.min.js"></script>
+    <!-- 对于 web 项目，为了能够让 jquery 和 electron 一起使用，在引入 jquery 后进行判断 -->
+    <script>if (typeof module === 'object') {window.jQuery = window.$ = module.exports;};</script>
+    <!-- 包括所有已编译的 bootstrap 插件 -->
+    <script type="text/javascript" src="js-app/popper.min.js"></script>
+    <script type="text/javascript" src="js-app/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    	const ipcRenderer = require('electron').ipcRenderer;
+    	// 监听事件，弹出收到的消息
+    	function init() {
+    		ipcRenderer.on('asynchronous-reply',function(event,arg) {
+   				alert(arg);
+   			});
+    	}
+    	// 向主进程发送消息
+   		function sayHello() {
+   			ipcRenderer.send('asynchronous-message', 'say hello');
+   		}
+   </script>
+</html>
