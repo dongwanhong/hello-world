@@ -9,7 +9,7 @@ const cleanWebpackPlugin = require('clean-webpack-plugin');
 // uglifyjs-webpack-plugin
 // mini-css-extract-plugin
 
-let htmlArr = fs.readdirSync(path.resolve(__dirname,'../src/html'));
+let htmlArr = fs.readdirSync(path.resolve(__dirname,'../src/pages/html'));
 let entries = {};
 let htmlPlugins = [];
 
@@ -17,7 +17,7 @@ for(let item of htmlArr) {
 	let name = item.split('.html')[0];
 	htmlPlugins.push(new HTMLWebpackPlugin({
 		filename: item,
-		template: path.resolve(__dirname,`../src/html/${item}`),
+		template: path.resolve(__dirname,`../src/pages/html/${item}`),
 		chunks: ['common',name],
 		inject: true,
 		minify: {
@@ -26,7 +26,7 @@ for(let item of htmlArr) {
 			removeAttributeQuotes: true
 		},
 	}));
-	entries[name] = path.resolve(__dirname,`../src/js/${name}.js`);
+	entries[name] = path.resolve(__dirname,`../src/pages/js/${name}.js`);
 };
 
 module.exports = webpackMerge(webpackBaseConfig,{

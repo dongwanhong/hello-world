@@ -8,8 +8,8 @@ const resolve = dir => {
 module.exports = {
 	// 输出路径
 	output: {
-		filename: '[name].[hash].js',
-		chunkFilename: '[name].[hash].js',
+		filename: '[name]/[hash].js',
+		chunkFilename: '[name]/[hash].js',
 		path: path.resolve(__dirname,'../dist'),
 	},
 	module: {
@@ -53,27 +53,17 @@ module.exports = {
 		        ],
 		    },
 		    {
-		        test: /\.(jpg|png|gif|svg|jpeg)$/,
+		        test: /\.(jpg|png|gif|svg|jpeg|woff|woff2|eot|ttf|otf)$/,
 		        use: [
 		            {
 		            	loader: 'url-loader',
 	            		options: { 
-		                	limit: 1024 ,
+		                	limit: 1024,
+		                	name:'images/[name]-[hash:8].[ext]',
 	            		},
 		            }
 		        ]
 		    },
-		    {
-		        test: /\.(woff|woff2|eot|ttf|otf)$/,
-		        use: [
-		            {
-		            	loader:'file-loader',
-		            	options:{
-		                	name:'img/[name].[hash:8].[ext]',
-		            	},
-		            }
-		        ]
-		    }
 		],
 	},
 	// 创建路径别名
