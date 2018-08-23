@@ -1,0 +1,7 @@
+.global-tips(ng-class="slideClass")
+    .tips-body
+        .tips-title(ng-transclude="title") 系统提示
+        .tips-content(ng-transclude="content") 提示内容
+        .tips-footer(ng-transclude="footer") 链接
+    .toggle-tips(ng-click="startSlide()" ng-if="'slide-to-right' === slideClass") 开
+    .toggle-tips(ng-click="startSlide()" ng-if="'slide-to-right' !== slideClass") 关
