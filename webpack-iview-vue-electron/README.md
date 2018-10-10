@@ -8,11 +8,11 @@
 # install dependencies
 yarn install
 
-# serve with hot reload at 0.0.0.0:8081
+# serve with hot reload at 127.0.0.1:8081
 yarn run dev:electron
 
 # build electron application for production
-yarn run package
+yarn run package // This configuration is not available for the time being
 
 ```
 

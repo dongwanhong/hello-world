@@ -10,7 +10,7 @@ Multi page development environment based on webpack
 # install dependencies
 yarn install
 
-# serve with hot reload at 192.168.1.6:9000
+# serve with hot reload at localhost:8080
 yarn run dev
 
 # build

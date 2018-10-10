@@ -25,8 +25,8 @@ module.exports = webpackMerge(webpackBaseConfig,{
 	entry: entries,
 	devServer: {
 		contentBase: path.join(__dirname,'../dist'),
-		host:'192.168.1.6',
-		port: 9000,
+		// host:'192.168.1.6',
+		port: 8080,
 		historyApiFallback: true,
 		progress: true,
 		hot:true,

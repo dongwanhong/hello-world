@@ -20,13 +20,13 @@ npm run package
 
 #### Detailed introduction
 
-* [https://anani1994.github.io/blog/blog-others/2018/02/electron.html][1]
+* [https://anani1994.github.io/anani1994.github.io/blog/projects/old-blog/blog-others/2018/02/electron.html][1]
 
 #### Contact me
 
 * [cnblogs][2]
 * [Email][3]
 
-[1]: https://anani1994.github.io/blog/blog-others/2018/02/electron.html
+[1]: https://anani1994.github.io/anani1994.github.io/blog/projects/old-blog/blog-others/2018/02/electron.html
 [2]: http://www.cnblogs.com/anani/
 [3]: http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=zqqhoKm5pq2moI6oobajr6ei4K2how

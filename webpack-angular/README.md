@@ -2,7 +2,7 @@
 
 A simple Project Based on Angular
 
-<code>node v8.11.0</code> &nbsp; <code>yarn v1.7.0</code> &nbsp; <code>OS Windows 10</code>
+<code>node v8.11.0</code> &nbsp; <code>yarn v1.7.0</code> &nbsp; <code>OS Windows 10</code> &nbsp; <code>[view steps][3]</code>
 
 #### Build Setup
 
@@ -24,3 +24,4 @@ yarn run build
 
 [1]: https://anani1994.github.io/#/
 [2]: http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=zqqhoKm5pq2moI6oobajr6ei4K2how
+[3]: https://anani1994.github.io/#/articles/frontend/mixed/angular-dev
