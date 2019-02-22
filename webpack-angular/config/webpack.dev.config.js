@@ -14,7 +14,7 @@ module.exports = webpackMerge(webpackBaseConfig, {
     },
     devServer: {
         contentBase: path.join(__dirname, '../market'),
-        port:8080,
+        port: 8080,
         // host:'0.0.0.0'
     },
     devtool: 'cheap-module-eval-source-map',

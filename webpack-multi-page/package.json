@@ -1,5 +1,5 @@
 {
-  "name": "webpackMultiPage",
+  "name": "webpack-multi-page",
   "version": "1.0.0",
   "description": "Multi page development environment based on webpack",
   "keywords": [

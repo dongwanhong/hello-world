@@ -1,4 +1,4 @@
-# Demo-electron
+# Electron
 
 Building a Electron desktop development environment
 
@@ -20,13 +20,11 @@ npm run package
 
 #### Detailed introduction
 
-* [https://anani1994.github.io/anani1994.github.io/blog/projects/old-blog/blog-others/2018/02/electron.html][1]
+* [https://anani1994.github.io/anani1994.github.io/projects/BlogV1.0.0/blog-others/2018/02/electron.html][1]
 
 #### Contact me
 
-* [cnblogs][2]
-* [Email][3]
+[Send Email To Me][2]
 
-[1]: https://anani1994.github.io/anani1994.github.io/blog/projects/old-blog/blog-others/2018/02/electron.html
-[2]: http://www.cnblogs.com/anani/
-[3]: http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=zqqhoKm5pq2moI6oobajr6ei4K2how
+[1]: https://anani1994.github.io/anani1994.github.io/projects/BlogV1.0.0/blog-others/2018/02/electron.html
+[2]: http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=zqqhoKm5pq2moI6oobajr6ei4K2how

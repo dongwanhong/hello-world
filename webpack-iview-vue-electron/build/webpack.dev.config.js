@@ -13,8 +13,8 @@ module.exports = webpackMerge(webpackBaseConfig,{
   },
   devServer: {
        contentBase: path.join(__dirname, "dist"),
-       port:8081,
-       host:'127.0.0.1'
+       port: 8080,
+      //  host:'127.0.0.1'
   },
   devtool: 'cheap-module-eval-source-map', // devtool由webpack直接提高，将打包后的文件中的错误映射到最初对应的文件中，便于调试
   plugins: [

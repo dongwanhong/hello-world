@@ -19,10 +19,7 @@ yarn run build
 ```
 
 #### Contact me:
-* Author : [@Anani][1]
-* Blog：[Anani-cnblogs][2]
-* Contact me ：[Email][3]
 
-[1]: https://weibo.com/dongwanhong
-[2]: http://www.cnblogs.com/anani/
-[3]: http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=zqqhoKm5pq2moI6oobajr6ei4K2how
+[Send Email To Me][1]
+
+[1]: http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=zqqhoKm5pq2moI6oobajr6ei4K2how
