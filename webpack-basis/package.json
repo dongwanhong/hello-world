@@ -1,0 +1,100 @@
+{
+  "name": "webpack-basis",
+  "version": "1.0.0",
+  "description": "A Webpack development environment with basic configuration.",
+  "private": true,
+  "main": "index.js",
+  "sideEffects": [
+    "*.css",
+    "*.less"
+  ],
+  "author": "Anani",
+  "scripts": {
+    "start": "npx nps dev",
+    "build": "npx nps build",
+    "build:dev": "npx nps build.dev",
+    "prettier": "prettier --write '*.{ts,js,less,css,json}'",
+    "lint:base": "eslint --rule \"prettier/prettier: 2\"",
+    "lint": "yarn run lint:base -- .",
+    "lint:fix": "yarn run lint --fix",
+    "stylelint:base": "stylelint '**/*.less' --syntax less",
+    "stylelint": "yarn run stylelint:base",
+    "stylelint:fix": "yarn run stylelint:base --fix"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anani1994/hello-world/tree/master/webpack-basis"
+  },
+  "homepage": "https://github.com/Anani1994/hello-world/tree/master/webpack-basis#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.4.4",
+    "autoprefixer": "^9.5.1",
+    "babel-loader": "^8.0.5",
+    "cross-env": "^5.2.0",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "exports-loader": "^0.7.0",
+    "expose-loader": "^0.7.5",
+    "file-loader": "^3.0.1",
+    "glob-all": "^3.1.0",
+    "happypack": "^5.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "husky": "^2.3.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "lint-staged": "^8.1.7",
+    "mini-css-extract-plugin": "^0.6.0",
+    "nps": "^5.9.5",
+    "nps-utils": "^1.7.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^1.17.1",
+    "purify-css": "^1.2.5",
+    "purifycss-webpack": "^0.7.0",
+    "stylelint": "^10.0.1",
+    "stylelint-config-prettier": "^5.2.0",
+    "stylelint-config-standard": "^18.3.0",
+    "terser-webpack-plugin": "^1.2.3",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "core-js": "3",
+    "jquery": "^3.4.1",
+    "moment": "^2.24.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "linters": {
+      "*.{less,css}": [
+        "yarn run stylelint",
+        "git add"
+      ],
+      "*.{ts,js}": [
+        "yarn run lint",
+        "git add"
+      ]
+    },
+    "ignore": [
+      "dist/**/*"
+    ]
+  }
+}

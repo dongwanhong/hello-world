@@ -1,0 +1,13 @@
+# Ignored by default
+/node_modules/*
+/bower_components/*
+
+# Ignore built files
+/dist/*
+
+# Ignore setting files
+/scripts
+/babel.config.js
+/package-scripts.js
+/postcss.config.js
+package.json
