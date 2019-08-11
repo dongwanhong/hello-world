@@ -7,7 +7,7 @@
     "dev": "webpack-dev-server --base ./market --open --inline --hot --compress --config config/webpack.dev.config.js",
     "build": "webpack --config config/webpack.prod.config.js"
   },
-  "author": "Anani 2017 <miyiyangdezixin@163.com>",
+  "author": "DongWanHong 2017 <miyiyangdezixin@163.com>",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^9.1.1",

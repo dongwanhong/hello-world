@@ -30,5 +30,5 @@ yarn run build
 
 [Send Email To Me][2]
 
-[1]: https://anani1994.github.io/anani1994.github.io/projects/BlogV2.0.0/#/articles/frontend/AngularJS/angular-dev
+[1]: https://dongwanhong.github.io/BlogV2.0.0/#/articles/frontend/AngularJS/angular-dev
 [2]: http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=zqqhoKm5pq2moI6oobajr6ei4K2how

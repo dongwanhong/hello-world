@@ -10,7 +10,7 @@
     "dev:electron": "webpack-dev-server --inline --hot --target electron-renderer --config build/webpack.dev.config.js & ./node_modules/.bin/electron .",
     "package": ""
   },
-  "author": "Anani",
+  "author": "DongWanHong",
   "license": "MIT",
   "dependencies": {
     "iview": "^2.14.3",

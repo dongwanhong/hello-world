@@ -1,7 +1,7 @@
 {
   "name": "webpack-react",
   "version": "1.0.0",
-  "author": "Anani",
+  "author": "DongWanHong",
   "description": "webpack-react basic development environment",
   "main": "index.js",
   "keywords": [
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Anani1994/hello-world/tree/master/webpack-react"
+    "url": "https://github.com/dongwanhong/hello-world/tree/master/webpack-react"
   },
   "scripts": {
     "dev": "webpack-dev-server --config config/webpack.dev.config.js",

@@ -12,9 +12,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Anani1994/hello-world"
+    "url": "https://github.com/dongwanhong/hello-world"
   },
-  "author": "Anani<dongwhchn@163.com>",
+  "author": "DongWanHong<dongwhchn@163.com>",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^9.0.1",

@@ -8,7 +8,7 @@
     "dev": "webpack-dev-server --base ./dist --open --inline --hot --compress --config build/webpack.dev.config.js",
     "build": "webpack --config build/webpack.prod.config.js"
   },
-  "author": "Anani",
+  "author": "DongWanHong",
   "license": "MIT",
   "dependencies": {
     "iview": "^2.14.3",

@@ -79,5 +79,5 @@
 
 生成后的文件被压缩，文件名包括哈希，现在，您的应用程序已准备好进行部署。
 
-#### [查看我的博客](https://anani1994.github.io/#/)
+#### [查看我的博客](https://dongwanhong.github.io/#/)
 #### [给我发送邮件](http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=zqqhoKm5pq2moI6oobajr6ei4K2how)

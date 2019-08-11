@@ -8,7 +8,7 @@
     "*.css",
     "*.less"
   ],
-  "author": "Anani",
+  "author": "DongWanHong",
   "scripts": {
     "start": "npx nps dev",
     "build": "npx nps build",
@@ -26,9 +26,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Anani1994/hello-world/tree/master/webpack-basis"
+    "url": "git+https://github.com/dongwanhong/hello-world/tree/master/webpack-basis"
   },
-  "homepage": "https://github.com/Anani1994/hello-world/tree/master/webpack-basis#readme",
+  "homepage": "https://github.com/dongwanhong/hello-world/tree/master/webpack-basis#readme",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.4.4",

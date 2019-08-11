@@ -6,7 +6,7 @@
     "start": "electron .",
     "package": "electron-packager ./ HelloWorld --platform=win32 --arch=x64 --out ./outApp --version 1.4.13 --overwrite --icon=./photo-app/icon.ico"
   },
-  "author": "Anani",
+  "author": "DongWanHong",
   "license": "ISC",
   "devDependencies": {
     "electron-packager": "^10.1.1",
