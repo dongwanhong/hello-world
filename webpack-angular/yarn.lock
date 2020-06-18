@@ -221,9 +221,9 @@ angular-animate@1.4.6:
   version "1.4.6"
   resolved "https://registry.yarnpkg.com/angular-animate/-/angular-animate-1.4.6.tgz#2970c2a9f3c978f2e0b218f4d6a7f1869cb23da7"
 
-angular@1.5:
-  version "1.5.11"
-  resolved "https://registry.yarnpkg.com/angular/-/angular-1.5.11.tgz#8c5ba7386f15965c9acf3429f6881553aada30d6"
+angular@1.8:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/angular/-/angular-1.8.0.tgz#b1ec179887869215cab6dfd0df2e42caa65b1b51"
 
 ansi-escapes@^3.0.0:
   version "3.1.0"
